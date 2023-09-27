@@ -1,10 +1,21 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
+	"pages": [
+		{
+		"path": "pages/home/home",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "旧厂街市场"
 		}
-	}],
+	},{
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+	},{
+		"path": "pages/car/car",
+		"style": {
+			"navigationBarTitleText": "购物车"
+		}
+	},],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
