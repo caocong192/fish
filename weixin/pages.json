@@ -15,7 +15,8 @@
 		"style": {
 			"navigationBarTitleText": "购物车"
 		}
-	},],
+	}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -24,5 +25,29 @@
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "主页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_selected.png"
+			},
+			{
+				"pagePath": "pages/car/car",
+				"text": "购物车",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_selected.png"
+			}
+		]
 	}
 }
